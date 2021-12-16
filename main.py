@@ -1,6 +1,6 @@
-def count_max(data: list[int]):
-    max_: int = data[0]
-    for number in data:
+def count_max(tofindmaxlist: list[int]):
+    max_: int = tofindmaxlist[0]
+    for number in tofindmaxlist:
         if number > max_:
             max_ = number
     return max_
