@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo
-        run: ls
+        run: cd /home/runner/work/test-python-ci-cd/test-python-ci-cd/
       # Устанавливаем python нужной версии
       - uses: actions/setup-python@v1
         with:
