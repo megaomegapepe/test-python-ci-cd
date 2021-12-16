@@ -19,4 +19,4 @@ jobs:
           python-version: '3.8'
           architecture: 'x64'
       - name: Run tests
-        run: ./tests.py
+        run: ./home/runner/work/test-python-ci-cd/test-python-ci-cd/tests.py
