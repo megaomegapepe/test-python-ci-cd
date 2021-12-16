@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo
-        run: echo $PWD
+        run: ls
       # Устанавливаем python нужной версии
       - uses: actions/setup-python@v1
         with:
