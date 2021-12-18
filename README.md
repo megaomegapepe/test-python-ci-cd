@@ -12,3 +12,6 @@ Test for CI/CD on python
 ```buildoutcfg
 ./tests.py
 ```
+
+
+![example workflow](https://github.com/megaomegapepe/test-python-ci-cd/actions/workflows/ci.yml/badge.svg)
